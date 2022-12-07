@@ -1,0 +1,134 @@
+.navbar-header {
+    margin-bottom: 20px;
+}
+
+.pirat {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.navbar-nav-left {
+    color: rgb(255, 255, 255);
+    width: 150px;
+    float: right;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    outline: inset;
+    outline-color: black;
+    outline-color: rgb(77, 96, 127);
+    outline-width: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.navbar-nav-right {
+    color: rgb(255, 255, 255);
+    width: 150px;
+    float: right;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    outline: inset;
+    outline-color: black;
+    outline-color: rgb(77, 96, 127);
+    outline-width: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+[class="col-lg-12"] {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.submitbutton2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.submitbutton3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submitbutton4 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.gender {
+    margin-top: 30px;
+}
+
+.choosefile {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(77, 96, 127);
+    margin-top: 40px;
+}
+
+footer p {
+    color: white
+}
+
+h1 {
+    color: rgb(187, 187, 187)
+}
+
+p {
+    font-family: 'inter v';
+    color: black;
+    opacity: 80%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 630px;
+    width: 150px;
+    border: 1px rgb(77, 96, 127);
+    padding: 10px;
+}
+
+.logo-main {
+    height: 50px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-nav-left li a, .navbar-nav-right li a {
+    background: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+body {
+    background-image: url(wg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+[class="navbar navbar-expand-lg navbar-dark bg-secondary"] {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .navbar-nav-left, .navbar-nav-right {
+    width: 100px;
+  }
+}

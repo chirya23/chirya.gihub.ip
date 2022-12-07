@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serega Pirat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+        background-image: url(wgbg.jpg);
+        background-repeat: no-repeat 0 0;
+        background-size: 100%;
+      }
+      main, footer {
+        flex-direction: row;
+        display: flex;
+      }
+      #grid {
+          display: grid;
+          grid-template-rows: 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 2vw;
+        }
+      #grid > div {
+          font-size: 5vm;
+          padding: .5em;
+          background: silver;
+          text-align: center;
+        }
+      main, header, footer, aside {
+          display: grid;
+          grid-template-areas:
+          "header header header"
+          "aside man aside-right"
+          "footer footer footer";
+        }
+        header {
+          grid-template-columns: 100%;
+        }
+        .pirat {
+          width: 30%;
+          box-shadow: 0 0 10px rgba(26, 9, 9, 0.6);
+          padding: 5px;
+        }
+    </style>
+    <link rel="icon" href="icon.png"/>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar gnavbar-dark bg-dark navbar-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"><img class="logo-main" src="icon.png" alt="icon"><h1>Serega  </h1></a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <nav>
+          <ul class="navbar-nav navbar-nav-left">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="/">Arthas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="4.html"
+                >Serega Pirat
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="container">
+        <div class="information">
+          <div class="col-lg-12">
+            <h2><center>information about Pirat Serega</center></h2>
+            <p class="lead"><img src="pirat.jpg" class="pirat" alt="pirat" width="300"><b>Serega Pirat</b> 
+              is a musical performer,to his credit such compositions as: "Мой байк", "Почему ты еще не фанат?",
+              "тп на аме", "Гимн Дахака", "Ну и что, что я вор?", "Маша", "Мой топор".
+              </p>
+              <img src="serega-pirat.gif" alt="gif-pirat">
+          </div>
+        </div>
+      </div>
+      <aside>
+        <nav>
+          <ul class="navbar-nav navbar-nav-right">
+            <h5>My contacts</h5>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="https://t.me/chirya23" target="_blank"
+                >Telegram</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="https://www.instagram.com/ch1rya/" target="_blank"
+                >Instagram</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+    <footer>
+      <p>@ 2022 Danil Chernenko</p>
+    </footer>
+  </body>
+</html>
